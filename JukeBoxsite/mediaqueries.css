@@ -1,0 +1,79 @@
+
+/*equivalent to 320px(for Mobile)*/
+@media(max-width:20em){
+    #price-columns{
+        gap:0.8rem;
+        flex-direction: column;
+        background-color: brown;
+       
+    }
+
+       .stream-head{
+        font-size: 1rem;
+    }
+
+    .stream-text{
+        font-size: 0.7rem;
+    }
+    #price-columns1{
+        width:31rem;
+    }
+    /*.container1{
+        width:35rem;
+    }*/
+            
+    
+    .link2{
+        padding:0.4rem 1.6rem;
+        border-radius: 2rem;
+        font-weight: 500;
+     
+    }
+    .Logo{
+        margin-left: 2rem;
+    }
+
+   }
+   
+/*equivalent to 520px(for Tablets)*/
+@media(max-width:32em){
+    .hero {
+
+    max-width:100vh;
+    height:40vh;
+}
+    .list1,.list2,.list3{
+        font-size:0.7rem ;
+    }
+    .button1{
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+    #Head1{
+        font-size:1.5rem;
+
+    }
+
+    #price-columns1{
+       max-width:40rem;
+       height: auto;
+}
+
+#disc{
+    max-height: 55vh;
+}
+.navbar{
+    max-width:70rem; 
+    gap:1.5rem;
+
+}
+.Logo{
+    max-width:8rem;
+}
+
+.main-head1{
+    font-size:1.2rem;
+}
+
+}
+
